@@ -1,7 +1,7 @@
 set :stages, %w(en zh)
 set :default_stage, 'zh'
 set :user, 'ideaman'
-set :domain, '106.185.53.80'
+set :domain, 'ideaman.space'
 set :repository, 'https://github.com/IdeaManYu/wblog.git'
 set :term_mode, :system
 
