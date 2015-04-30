@@ -8,7 +8,7 @@ ADMIN_PASSWORD: 'admin'
 
 
 # Rails secret token, use `rake secret` to generate new one here.
-SECRET_TOKEN: 'e4122773d4324fce978c52cde790d84d14f7194f377aea41b7b8302d1d10150e6076a3b7e5e0c1f24ca330cf0a058482c95ea37908bba1722d0761ba5d4e566a'
+SECRET_TOKEN: 'a73c07e96d86a1a6e26639d5a6e072f0751ebd70d5d2155bcbc42802e24353c156f926347de1d68a1e69d8f4a3f1a9289dbdde9b125c62c47254e8917f61f92f'
 
 #locale: en or zh-CN, zh-CN is default value
 LOCALE: 'zh-CN'
