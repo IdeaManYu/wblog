@@ -5,7 +5,7 @@ preload_app        true
 timeout            180
 listen             '/tmp/unicorn_wblog_zh.sock'
 pid                "#{app_path}/tmp/pids/unicorn.pid"
-user               'ruby', 'ruby'
+user               'ideaman', 'ideaman'
 stderr_path        "log/unicorn.log"
 stdout_path        "log/unicorn.log"
 
