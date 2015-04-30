@@ -1,4 +1,4 @@
-set :domain, 'ideaman.space'
+set :domain, '106.185.53.80'
 set :deploy_to, '/home/ideaman/wblog'
 set :repository, 'git@github.com:IdeaManYu/wblog.git'
 set :branch, 'master'
