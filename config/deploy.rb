@@ -1,5 +1,9 @@
 set :stages, %w(en zh)
 set :default_stage, 'zh'
+set :user, 'ideaman'
+set :domain, '106.185.53.80'
+set :repository, 'https://github.com/IdeaManYu/wblog.git'
+set :term_mode, :system
 
 require 'mina/multistage'
 require 'mina/bundler'
@@ -14,8 +18,8 @@ require 'mina_sidekiq/tasks'
 set :shared_paths, ['config/mongoid.yml', 'config/application.yml', 'log', 'tmp', 'public/uploads', 'public/personal' ]
 
 task :environment do
-  queue! %[source /usr/local/rvm/scripts/rvm]
-  queue! %[rvm use 2.0.0]
+  queue! %[source /home/ideaman/.rvm/scripts/rvm]
+  queue! %[rvm use 2.2.2]
 end
 
 task :setup => :environment do
